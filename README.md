@@ -14,10 +14,11 @@ I am an entry-level hardware design engineer. I like building digital systems fr
 ## **Projects I Have Built**
 
 ### **Synchronous FIFO Memory Buffer** *Tools: Verilog, Xilinx Vivado*
+
 I made a memory buffer using a single clock to safely pass data between different hardware parts. I used a dual-port RAM and wrote custom rules to manage the read and write pointers. This stops the memory from getting too full or too empty. I tested the design in Vivado and ModelSim to make sure the data was correct.
 
-### **Parameterized ALU**
-*Tools: Verilog, ModelSim*
+### **Parameterized ALU** *Tools: Verilog, ModelSim*
+
 I designed an Arithmetic Logic Unit (ALU) that does basic math and logic tasks using one control path. I used Verilog parameters for this project. This means the design can easily change between 8-bit and 16-bit data sizes using the exact same code.
 
 ---
